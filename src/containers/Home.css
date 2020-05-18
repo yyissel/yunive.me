@@ -1,3 +1,33 @@
-.Home-container{
+.Home{
+  display: block;
+  width: 100%;
+  padding: 0 0 0 0;
+  background: #FFF8F3;
+}
+.container{ 
+  margin: 0px ;
+  padding: 0px;
+  width: 100%;
+  align-content: center;
+}
+.container img{
+  position: inline;
+  width: 500px;
+}
+.row{
+  width:inherit;
+  align-content: space-between;
+}
+.eow{
+  padding: 20px;
+}
+.parent{
   display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  background:  #AAF8E1;
+}
+.child img{
+  width: 400px;
+  height: 400px;
 }

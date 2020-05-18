@@ -7,17 +7,21 @@ import Routes from "./Routes";
 function App() {
   return (
     <div className="App">
+      
       <div className="header">
-      <Navbar fixed= "top" bg="light" expand="lg">
+        <Navbar >
           <Navbar.Brand href="/">
-            Yunive Avendano
+            <h1>Yunive Avendano</h1>
           </Navbar.Brand>
-          <Nav className="justify-content-end">
-            <Nav.Link href="/about-me" >About Me</Nav.Link>
-            <Nav.Link href="/resume" >About Me</Nav.Link>
-          </Nav>
+            <Navbar.Collapse>
+              <Nav>
+                <Nav.Link href="/about-me">about me</Nav.Link>
+                <Nav.Link href="/resume">resume</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
         </Navbar>
       </div>
+
       <Routes />
     </div>
   );
