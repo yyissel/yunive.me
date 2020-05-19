@@ -9,6 +9,7 @@ import hackdartmouth from "../images/hackdartmouth.png";
 import sczen from "../images/sczen.png";
 import senselab from "../images/senselab.png";
 
+
 class Home extends Component {
 
   render () {
@@ -62,7 +63,13 @@ class Home extends Component {
                 <Carousel.Item>
                   <div className="textBox">
                     <Carousel.Caption>
-                    
+                      <h4>Tools:</h4>
+                      <h5>Figma</h5>
+                      <h5>React</h5>
+                      <h5>Amazon Cognito</h5>
+                      <h5>AWS Lambda</h5>
+                      <h5>PostgreSQL</h5>
+                      <h5>PostgreSQL</h5>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
@@ -74,6 +81,26 @@ class Home extends Component {
                 <Carousel.Item>
                   <img src={dartpath} alt="logo"/>
                 </Carousel.Item>
+                <Carousel.Item>
+                  <div className="textBox">
+                    <Carousel.Caption>
+                      <h4>Role:</h4>
+                      <h5>Product Designer</h5>
+                      <h4>Goal:</h4>
+                      <h5>Facilitating course selection for incoming Freshmen who have 
+                        multiple interests for their major.</h5>      
+                    </Carousel.Caption>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="textBox">
+                  <Carousel.Caption>
+                    <h4>Tools:</h4>
+                    <h5>User Interviewing</h5>
+                    <h5>Figma</h5>
+                  </Carousel.Caption>
+                  </div>
+                </Carousel.Item>
               </Carousel>
             </div>
             <div className="project">
@@ -81,12 +108,52 @@ class Home extends Component {
                 <Carousel.Item>
                   <img src={hackdartmouth} alt="logo"/>
                 </Carousel.Item>
+                <Carousel.Item>
+                <div className="textBox">
+                  <Carousel.Caption>
+                    <h4>Role:</h4>
+                    <h5>Marketing Lead</h5>
+                    <h4>Goal:</h4>
+                    <h5>Outreach to nationwide college campuses and organizations 
+                      to increase hackathon's turnout.</h5>      
+                  </Carousel.Caption>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="textBox">
+                  <Carousel.Caption>
+                    <h4>Tools:</h4>
+                    <h5>MailChimp</h5>
+                    <h5>Typeform</h5>
+                  </Carousel.Caption>
+                  </div>
+                </Carousel.Item>
               </Carousel>
             </div>
             <div className="project">
               <Carousel id="sense-lab">
                 <Carousel.Item>
                   <img src={senselab} alt="logo"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="textBox">
+                    <Carousel.Caption>
+                      <h4>Role:</h4>
+                      <h5>Research Intern</h5>
+                      <h4>Goal:</h4>
+                      <h5>Design a light-powered battery that can output energy for 
+                        long periods of time to power a communication device</h5>      
+                    </Carousel.Caption>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="textBox">
+                  <Carousel.Caption>
+                    <h4>Tools:</h4>
+                    <h5>ArduinoIDE</h5>
+                    <h5>LTSpice</h5>
+                  </Carousel.Caption>
+                  </div>
                 </Carousel.Item>
               </Carousel>
             </div>

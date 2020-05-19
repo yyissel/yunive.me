@@ -8,13 +8,11 @@ import NotFound from "./containers/NotFound";
 
 export default function Routes() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/contact" component={Contact}/>
-
-        <Route component={NotFound}/>
-        
+        <Route path="/contact" component={Contact}/>
+        <Route component={NotFound}/> 
       </Switch>
     </BrowserRouter>
   );

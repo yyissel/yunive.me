@@ -12,10 +12,10 @@ h1{
 
 /*Navigation Bar*/
 .navbar{
-  
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  background: #FFF8F3;
 }
 .navbar-collapse.collapse{
   align-self: left;
