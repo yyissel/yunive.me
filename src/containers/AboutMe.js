@@ -4,19 +4,19 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="App">
-      <header className="container">
-        <div className="item">
+    <div className="AboutMe">
+      <header className="contain" id="about">
+        
           <p>
-             MY NAME IS YUNIVE AVENDANO. I AM A 22 FROM TUCSON, ARIZONA. SHE PLANS TO BE 
+             MY NAME IS YUNIVE AVENDANO ('22). I AM FROM TUCSON, ARIZONA. I PLAN TO BE 
              A MECHANICAL ENGINEER AND A HUMAN ENTERED DESIGN MINOR.
           </p>
+         
+          <img src={kayak} alt="hobby"/>
           <p>
-            On her free time, she likes to kayak, find new music on Spotify,
+           On my free time, I like to kayak, find new music on Spotify,
             and watch Netflix.
           </p>
-          <img src={kayak} alt="hobby"/>
-        </div>
       </header>
     </div>
   );

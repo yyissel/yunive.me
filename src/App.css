@@ -1,7 +1,10 @@
-
-.App h1{
-  font-family: 'Pacifico', cursive;
-  font-size: 60px;
+.App{
+  background: #FFF8F3;
+}
+h1{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 55px;
+  padding: 40px;
 }
 .navBar p{
   font-family: 'Didact Gothic', sans-serif;
@@ -9,9 +12,10 @@
 }
 /*Navigation Bar*/
 .navbar{
+  display: flex;
+  flex-wrap: wrap;
   padding: 20px;
   width: 100%;
-  background: #FFF8F3;
 }
 .navbar-collapse.collapse{
   align-self: left;
@@ -21,4 +25,9 @@ a.nav-link{
   font-family: 'Didact Gothic', sans-serif;
   font-size: 36px;
   color: black;
+}
+.row{
+  margin: 0px;
+  width: 100%;
+  height: inherit;
 }

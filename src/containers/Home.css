@@ -4,21 +4,45 @@
   padding: 0 0 0 0;
   background: #FFF8F3;
 }
-.contain{
-  justify-content: center;
-  margin: 0px;
-  width: 100;
-  height: inherit;
-  background: #AAF8E1;
+.Home{
+ padding-left: 20px;
+}
+
+#me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+
+}
+#me p{
+  display: block;
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+#me img{
+  width: 500px;
+  
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px;
 }
 .carousel{
   margin: auto;
-  width: 700px;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
   display: block;
+  background: black;
 }
-span.carousel.control{
-  color: black;
-}
+
 .carousel img{
   width: 100%;
   height: 100%;
