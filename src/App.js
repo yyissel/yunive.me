@@ -13,7 +13,6 @@
 					</Navbar.Brand> 
 					<Navbar.Collapse >
 						<Nav >
-					
 						<Nav.Link href = "/contact" > 
 						contact
 						</Nav.Link>

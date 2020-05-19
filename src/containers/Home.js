@@ -32,7 +32,7 @@ class Home extends Component {
         </div>
 
         <div className="row" id="carousel">
-          <h1>Projects</h1>
+          <h2>Projects</h2>
           <Animated animationIn="slideInLeft">
           <div className= "grid" >
             <div className="project">

@@ -37,8 +37,8 @@
 #carousel.row {
   background: #AAF8E1;
 }
-#carousel.row h1{
-  padding: 20px;
+#carousel.row h2{
+  padding: 40px;
 }
 .carousel{
   margin: 20px;
@@ -48,11 +48,12 @@
   display: block;
   background:gray;
 }
-.carousel h2,h3,p{
+.carousel > h2,h3,p{
   width: 100%;
   padding:0px;
 }
-.carousel img{
-  height: 300px;
+.carousel > img{
+  height: inherit;
+  width: inherit;
   overflow: hidden;
 }
