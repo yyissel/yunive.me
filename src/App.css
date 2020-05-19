@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.App{
+  background: #FFF8F3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 55px;
+  padding: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBar p{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Navigation Bar*/
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar-collapse.collapse{
+  align-self: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.nav-link{
+  text-align: right;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 36px;
+  color: black;
+}
+.row{
+  margin: 0px;
+  width: 100%;
+  height: inherit;
 }

@@ -1,0 +1,18 @@
+.AboutMe p {
+  font-size: 30px;
+}
+#about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-self: baseline;
+}
+.AboutMe .p{
+  width: 500px;
+}
+.AboutMe img{
+  padding: 30px;
+  width: 500px;
+  height: auto;
+}
