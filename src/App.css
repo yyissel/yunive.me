@@ -2,20 +2,20 @@
   background: #FFF8F3;
 }
 h1{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 55px;
-  padding: 40px;
 }
 .navBar p{
   font-family: 'Didact Gothic', sans-serif;
   font-size: 40px;
 }
+
 /*Navigation Bar*/
 .navbar{
+  
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  width: 100%;
 }
 .navbar-collapse.collapse{
   align-self: left;

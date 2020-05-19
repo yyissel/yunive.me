@@ -12,13 +12,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: space-between;
+  align-items: center;
 
 }
 #me p{
   display: block;
   padding: 30px;
-  width: 500px;
+  width: 300px;
   text-align: center;
   font-size: 25px;
   color: black;
@@ -32,18 +32,32 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
+}
+#carousel.row {
+  background: #AAF8E1;
+}
+.row h1{
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+  padding: 40px;
+  width: 100%;
 }
 .carousel{
-  margin: auto;
-  padding: 10px;
+  margin: 20px;
   height: 300px;
-  width: 300px;
+  width: 400px;
   display: block;
-  background: black;
+  background:gray;
 }
-
+.textBox{
+  height: 300px;
+  width: 400px;
+  color: white;
+}
 .carousel img{
-  width: 100%;
-  height: 100%;
+  left: 0px;
+  top: 0px;
+  height: 300px;
+  width: 400px;
 }
