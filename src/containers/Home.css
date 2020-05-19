@@ -7,7 +7,7 @@
 .Home{
  padding-left: 20px;
 }
-
+/*me section*/
 #me {
   display: flex;
   flex-wrap: wrap;
@@ -27,6 +27,14 @@
   width: 500px;
   
 }
+/*projects*/
+.row h1{
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+  padding: 40px;
+  width: 100%;
+  color: black;
+}
 .grid{
   display: flex;
   flex-wrap: wrap;
@@ -36,12 +44,6 @@
 }
 #carousel.row {
   background: #AAF8E1;
-}
-.row h1{
-  font-family: 'Didact Gothic', sans-serif;
-  font-weight: bold;
-  padding: 40px;
-  width: 100%;
 }
 .carousel{
   margin: 20px;
@@ -60,4 +62,17 @@
   top: 0px;
   height: 300px;
   width: 400px;
+}
+/*contact me*/
+#contact.row{
+  padding-bottom: 70px;
+}
+#contact.row h2{
+  padding-top: 10px;
+}
+#contact.row h2,a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
 }

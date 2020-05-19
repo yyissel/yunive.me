@@ -3,6 +3,7 @@ import "./Home.css";
 
 import { Animated } from "react-animated-css";
 import { Carousel } from "react-bootstrap";
+
 import me from"../images/me.png";
 import dartpath from "../images/dartpath.png";
 import hackdartmouth from "../images/hackdartmouth.png";
@@ -44,7 +45,6 @@ class Home extends Component {
           <Animated animationIn="slideInLeft">
           <div className= "grid" >
             <div className="project">
-
               <Carousel id="sczen">
                 <Carousel.Item>
                   <img src={sczen} alt="logo"/>
@@ -74,8 +74,8 @@ class Home extends Component {
                   </div>
                 </Carousel.Item>
               </Carousel>
-
             </div>
+
             <div className="project">
               <Carousel id="dartpath">
                 <Carousel.Item>
@@ -103,6 +103,7 @@ class Home extends Component {
                 </Carousel.Item>
               </Carousel>
             </div>
+
             <div className="project">
               <Carousel id="hackdartmouth">
                 <Carousel.Item>
@@ -130,6 +131,7 @@ class Home extends Component {
                 </Carousel.Item>
               </Carousel>
             </div>
+
             <div className="project">
               <Carousel id="sense-lab">
                 <Carousel.Item>
@@ -160,11 +162,17 @@ class Home extends Component {
           </div>
 
           </Animated>
+
         </div>
-        
+
+        <div className="row" id= "contact">
+          <h1>contact me</h1>
+          <h2> blitz me at:</h2>
+          <a href = "mailto:yunive.y.avendano.22@dartmouth.edu">
+            yunive.y.avendano.22@dartmouth.edu</a>
+        </div>
       </div>
     );
   }
-  
 }
 export default Home;
