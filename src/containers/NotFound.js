@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./NotFound.css";
 
 function NotFound() {
   return (
     <div className="App">
       <header className="container">
         <div className="item">
-            <h1>Page not found</h1>
+            <p>Page not found</p>
         </div>
       </header>
     </div>

@@ -1,8 +1,9 @@
 .Contact{
-  padding: auto;
+  position: block;
   width: 100%;
   height: 100%;
   text-align: center;
+  margin: auto;
   background: #FFF8F3;
 }
 .Contact p{

@@ -32,28 +32,32 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
 }
 #carousel.row {
   background: #AAF8E1;
 }
-#carousel.row h2{
+.row h1{
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
   padding: 40px;
+  width: 100%;
 }
 .carousel{
   margin: 20px;
-  padding: 20px;
   height: 300px;
   width: 400px;
   display: block;
   background:gray;
 }
-.carousel > h2,h3,p{
-  width: 100%;
-  padding:0px;
+.textBox{
+  height: 300px;
+  width: 400px;
+  color: white;
 }
-.carousel > img{
-  height: inherit;
-  width: inherit;
-  overflow: hidden;
+.carousel img{
+  left: 0px;
+  top: 0px;
+  height: 300px;
+  width: 400px;
 }

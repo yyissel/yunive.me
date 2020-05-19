@@ -16,9 +16,6 @@
 						<Nav.Link href = "/contact" > 
 						contact
 						</Nav.Link>
-						<Nav.Link href = "/resume" > 
-						resume 
-						</Nav.Link> 
 						</Nav> 
 					</Navbar.Collapse> 
 				</Navbar> 
